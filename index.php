@@ -91,6 +91,6 @@
             </nav>
         </div>
     </main>
-    <footer class="rodape">COD3R & ALUNOS © 2022</footer>
+    <footer class="rodape">COD3R & ALUNOS © <?= date('Y'); ?></footer>
 </body>
 </html>
