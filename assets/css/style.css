@@ -47,7 +47,93 @@ body {
     padding: 20px;
 }
 
+.conteudo {
+    position: relative;
+    height: 100%;
+    overflow-y: auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.2);
+    scroll-behavior: smooth;
+}
+
 .rodape {
     grid-area: rodape;
-    background-color: #f0f0f0;
+    background-color: #fff;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 1.2rem;
+    padding-right: 20px;
+    color: #444;
 }
+
+.modulos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.modulo {
+    flex-basis: 32%;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.modulo > h3 {
+    margin: 0px;
+    color: #fff;
+    font-weight: 300;
+    font-size: 1.5rem;
+    padding: 10px 20px;
+    background-color: #1867c0;
+}
+
+.modulo > ul {
+    margin: 0px;
+    padding: 10px;
+    list-style: none;
+}
+
+.modulo > ul > li {
+    padding: 8px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.modulo > ul > li > a {
+    display: flex;
+    text-decoration: none;
+    color: #222;
+}
+
+.modulo > ul > li:hover {
+    background-color: #EEE;
+}
+
+.modulo.verde {border: 2px solid #4CAF50;}
+.modulo.verde >h3 {background-color:  #4CAF50;}
+
+.modulo.vermelho {border: 2px solid #d42b2b;}
+.modulo.vermelho >h3 {background-color:  #d42b2b;}
+
+.modulo.azul-claro {border: 2px solid #38a0c9;}
+.modulo.azul-claro >h3 {background-color:  #38a0c9;}
+
+.modulo.roxo {border: 2px solid #511ba8;}
+.modulo.roxo >h3 {background-color:  #511ba8;}
+
+.modulo.amarelo {border: 2px solid #f3b543;}
+.modulo.amarelo >h3 {background-color:  #f3b543;}
+
+.modulo.verde-escuro {border: 2px solid #3d5c19;}
+.modulo.verde-escuro >h3 {background-color:  #3d5c19;}
+
+.modulo.vermelho-escuro {border: 2px solid #881818;}
+.modulo.vermelho-escuro >h3 {background-color:  #881818;}
+
+.modulo.azul-escuro {border: 2px solid #1b30a8;}
+.modulo.azul-escuro >h3 {background-color:  #1b30a8;}
+
+.modulo.roxo-escuro {border: 2px solid #3e1270;}
+.modulo.roxo-escuro >h3 {background-color:  #3e1270;}
